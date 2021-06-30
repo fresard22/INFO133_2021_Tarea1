@@ -5,8 +5,8 @@ Definiremos la colección "audioSubido" de la siguiente forma:
     "audioSubido"
         {
           archivos:
-                    fechaSubida:ISODate("2021-04-19T14:30:15.123Z"),
-                    fechaGrabacion:ISODate("2021-04-18T18:47:42.153Z"),
+                    fechaSubida:datetime.datetime(2021,4,19,20,43,33),
+                    fechaGrabacion:datetime.datetime(2021,4,18,14,54,2),
                     formato:"mp3",
                     duracion:43,
                     latitud:45,
