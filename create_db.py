@@ -6,7 +6,7 @@ db=client["tarea1"]
 col=db["audioSubido"]
 col.insert_one({
                 "fechaSubida":datetime.datetime(2021,4,19,20,43,33),
-                 "fechaGrabacion":datetime.datetime(2021,4,18,14,54,2),
+                "fechaGrabacion":datetime.datetime(2021,4,18,14,54,2),
                 "formato":"mp3",
                 "duracion":43,
                 "latitud":45,
