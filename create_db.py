@@ -42,5 +42,3 @@ col.insert_one({
           "rut":19810249-0
         })
 print(col.count_documents({}))
-"""for documento in col.find({}):
-    print(db.find({},{"latitud":1}))"""
